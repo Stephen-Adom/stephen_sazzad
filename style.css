@@ -122,7 +122,7 @@ nav a:hover {
   }
 
   .project-list .project-card {
-    flex-basis: 50%;
+    flex-basis: 40%;
   }
 }
 
