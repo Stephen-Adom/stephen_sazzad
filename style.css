@@ -1,0 +1,141 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #be3144;
+  text-align: right;
+}
+
+nav a {
+  padding: 30px 15px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background: #45567d;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#welcome-section h1 {
+  font-size: 6rem;
+  margin-bottom: 0;
+  line-height: 25px;
+}
+
+#welcome-section p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #be3144;
+}
+
+#projects {
+  background: #45567d;
+  padding: 30px 20px;
+}
+
+#projects .main-project-header {
+  text-decoration: underline;
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.project-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.project-list .project-card {
+  flex-basis: 30%;
+  background: #303841;
+}
+
+.project-list .project-card .project-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+
+.project-list .project-card img {
+  width: 100%;
+}
+
+.project-list .project-card .portfolio-link {
+  padding: 25px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 320px) {
+  #welcome-section h1 {
+    font-size: 2.7rem;
+  }
+
+  #welcome-section p {
+    font-size: 1.5rem;
+  }
+
+  .project-list .project-card {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #welcome-section h1 {
+    font-size: 6rem;
+  }
+
+  #welcome-section p {
+    font-size: 6rem;
+  }
+
+  .project-list .project-card {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #welcome-section h1 {
+    font-size: 6rem;
+  }
+
+  #welcome-section p {
+    font-size: 3rem;
+  }
+
+  .project-list .project-card {
+    flex-basis: 30%;
+  }
+}
