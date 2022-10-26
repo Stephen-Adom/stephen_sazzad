@@ -75,7 +75,7 @@ nav a:hover {
   background: #303841;
 }
 
-.project-list .project-card .project-title {
+.project-list .project-card .project-tile {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +88,7 @@ nav a:hover {
   width: 100%;
 }
 
-.project-list .project-card .portfolio-link {
+#profile-link {
   padding: 25px;
   display: inline-block;
   text-align: center;
